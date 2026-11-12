@@ -1,0 +1,9 @@
+{
+  "currency": "USD",
+  "notice": "Illustrative demo rates only. Not provider quotes or current market prices.",
+  "providers": {
+    "aws": {"vcpu_hour": 0.045, "memory_gib_hour": 0.006, "storage_gib_month": 0.09},
+    "azure": {"vcpu_hour": 0.050, "memory_gib_hour": 0.007, "storage_gib_month": 0.10},
+    "gcp": {"vcpu_hour": 0.047, "memory_gib_hour": 0.0065, "storage_gib_month": 0.095}
+  }
+}

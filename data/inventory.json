@@ -1,0 +1,8 @@
+{
+  "resources": [
+    {"provider":"aws","name":"api-node-a","type":"compute","region":"eu-central-1","vcpus":2,"memory_gib":4,"storage_gib":40,"hours_per_month":730,"tags":{"env":"demo","service":"api"}},
+    {"provider":"aws","name":"db-node-a","type":"compute","region":"eu-central-1","vcpus":2,"memory_gib":8,"storage_gib":120,"hours_per_month":730,"tags":{"env":"demo","service":"database"}},
+    {"provider":"azure","name":"api-node-a","type":"compute","region":"westeurope","vcpus":2,"memory_gib":4,"storage_gib":40,"hours_per_month":730,"tags":{"env":"demo","service":"api"}},
+    {"provider":"gcp","name":"api-node-a","type":"compute","region":"europe-west3","vcpus":2,"memory_gib":4,"storage_gib":40,"hours_per_month":730,"tags":{"env":"demo","service":"api"}}
+  ]
+}
